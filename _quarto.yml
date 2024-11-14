@@ -1,5 +1,8 @@
 project:
   title: "bookclub"
-
+execute:
+  echo: false
+  message: false
+  warning: false
 
 
