@@ -28,7 +28,7 @@ jobs:
           cache-version: 1
          
       - name: R packages    
-      - uses: r-lib/actions/setup-r-dependencies@v2
+        uses: r-lib/actions/setup-r-dependencies@v2
         with:
           packages:
             any::knitr
