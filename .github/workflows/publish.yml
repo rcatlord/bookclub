@@ -26,6 +26,16 @@ jobs:
         uses: r-lib/actions/setup-renv@v2
         with:
           cache-version: 1
+         
+      - name: R packages    
+      - uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          packages:
+            any::knitr
+            any::rmarkdown
+            any::readr
+            any::dplyr
+            any::gt
 
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
