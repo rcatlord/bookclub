@@ -1,12 +1,46 @@
 ---
 pagetitle: "Book club"
 format: html
+editor_options: 
+  chunk_output_type: console
 ---
 
 ```{r}
+#| label: load-packages
+#| include: false
+
+library(readr) ; library(dplyr) ; library(gt)
+```
+
+
+```{r}
+#| label: table
 #| classes: plain
 
-readr::read_csv("data.csv") |> 
-  dplyr::arrange(desc(Date)) |> 
-  gt::gt()
+read_csv("data.csv") |> 
+  arrange(desc(Discussed)) |> 
+  gt() |> 
+  tab_style(
+    style = cell_text(align  = "left"),
+    locations = cells_column_labels()
+  ) |> 
+  tab_header(
+    title = md("*Book club reads*")
+  ) |>
+  opt_align_table_header(align = "left") |> 
+  opt_table_font(font = google_font("Montserrat")) |>
+  tab_options(
+    heading.title.font.size = px(20),
+    column_labels.font.size = px(15),
+    table.font.size = px(14),
+    table.width = px(700),
+    data_row.padding = px(3),
+    table.background.color = "#f0f0f0",
+    table.border.top.color = "transparent",
+    table.border.bottom.color = "transparent",
+    heading.border.bottom.color = "transparent",
+    column_labels.border.bottom.color = "#212121",
+    table_body.border.bottom.color = "transparent",
+    table_body.hlines.color = "#bdbdbd"
+  )
 ```
