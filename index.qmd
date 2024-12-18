@@ -19,7 +19,16 @@ read_csv("data.csv") |>
   arrange(desc(Reviewed)) |> 
   gt() |> 
   fmt_url(
-    columns = Link,
+    columns = TitleLink,
+    label = fontawesome::fa(
+      name = "link",
+      height = "0.75em",
+      vertical_align = "0em"
+     ),
+    color = "#bdbdbd"
+  ) |>
+  fmt_url(
+    columns = AuthorLink,
     label = fontawesome::fa(
       name = "link",
       height = "0.75em",
@@ -28,7 +37,11 @@ read_csv("data.csv") |>
     color = "#bdbdbd"
   ) |>
   cols_merge(
-    columns = c(Author, Link),
+    columns = c(Title, TitleLink),
+    pattern = "{1} {2}"
+  ) |> 
+  cols_merge(
+    columns = c(Author, AuthorLink),
     pattern = "{1} {2}"
   ) |> 
   sub_missing(missing_text = "") |> 
