@@ -11,19 +11,38 @@ editor_options:
 #| label: load-packages
 #| include: false
 
-library(readr) ; library(dplyr) ; library(gt) ; library(gtExtras)
+library(tidyverse) ; library(gt) ; library(gtExtras)
 ```
 
 ```{r}
-read_csv("data.csv") |> 
+read_csv("data.csv") |>
   arrange(desc(Reviewed)) |> 
   gt() |> 
+  fmt_url(
+    columns = Link,
+    label = fontawesome::fa(
+      name = "link",
+      height = "0.75em",
+      vertical_align = "0em"
+     ),
+    color = "#bdbdbd"
+  ) |>
+  cols_merge(
+    columns = c(Author, Link),
+    pattern = "{1} {2}"
+  ) |> 
+  sub_missing(missing_text = "") |> 
   tab_header(
     title = md("***Book club reads***")
   ) |>
   opt_align_table_header(align = "left") |> 
+  tab_options(
+    heading.title.font.size = px(30),
+    heading.padding = px(0)
+  ) |> 
   opt_interactive(
-    use_compact_mode = TRUE
+    use_compact_mode = TRUE,
+    use_search = TRUE,
   ) |> 
   gt_theme_dot_matrix() 
 ```

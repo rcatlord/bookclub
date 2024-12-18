@@ -1,17 +1,18 @@
-Title,Author,Published,Genre,Reviewed
-The Stasi Poetry Circle,Philip Oltermann,2022,Nonfiction,2023-03-21
-Nutshell,Ian McEwan,2016,Contemporary Fiction,2023-04-25
-The Infinities,John Banville,2009,Literary Fiction,2023-05-23
-Dance Your Way Home,Emma Warren,2023,Nonfiction,2023-06-27
-Mr Palomar,Italo Calvino,1983,Fiction,2023-07-18
-Sea of Tranquilty,Emily St. John Mandel,2022,Science Fiction,2023-08-29
-Shuggie Bain,Douglas Stuart,2020,Historical Fiction,2023-10-17
-Yellowface,Rebecca F. Kuang,2023,Contemporary Fiction,2023-11-21
-In the Miso Soup,Ryu Murakami,1997,Horror,2024-01-09
-Sepharad,Antonio Muñoz Molina,2001,Historical Fiction,2024-03-05
-Shadow Box,George Plimpton,1977,Sports,2024-04-16
-A Month in the Country,J.L. Carr,1980,Historical Fiction,2024-05-21
-Prophet Song,Paul Lynch,2023,Science Fiction,2024-07-09
-Time Out of Joint,Philip K. Dick,1959,Science Fiction,2024-09-17
-Parable of the Sower,Octavia E. Butler,1993,Science Fiction,2024-11-12
-The End of the Affair, Graham Greene,1951,Classics,2024-12-17
+Title,Author,Published,Genre,Reviewed,Link
+The Stasi Poetry Circle,Philip Oltermann,2022,Nonfiction,2023-03-21,https://en.wikipedia.org/wiki/Philip_Oltermann
+Nutshell,Ian McEwan,2016,Contemporary Fiction,2023-04-25,https://en.wikipedia.org/wiki/Ian_McEwan
+The Infinities,John Banville,2009,Literary Fiction,2023-05-23,https://en.wikipedia.org/wiki/John_Banville
+Dance Your Way Home,Emma Warren,2023,Nonfiction,2023-06-27,NA
+Mr Palomar,Italo Calvino,1983,Fiction,2023-07-18,https://en.wikipedia.org/wiki/Italo_Calvino
+Sea of Tranquilty,Emily St. John Mandel,2022,Science Fiction,2023-08-29,https://en.wikipedia.org/wiki/Emily_St._John_Mandel
+Shuggie Bain,Douglas Stuart,2020,Historical Fiction,2023-10-17,https://en.wikipedia.org/wiki/Douglas_Stuart_(writer)
+Yellowface,Rebecca F. Kuang,2023,Contemporary Fiction,2023-11-21,https://en.wikipedia.org/wiki/R._F._Kuang
+In the Miso Soup,Ryu Murakami,1997,Horror,2024-01-09,https://en.wikipedia.org/wiki/Ry%C5%AB_Murakami
+Sepharad,Antonio Muñoz Molina,2001,Historical Fiction,2024-03-05,https://en.wikipedia.org/wiki/Antonio_Mu%C3%B1oz_Molina
+Shadow Box,George Plimpton,1977,Sports,2024-04-16,https://en.wikipedia.org/wiki/George_Plimpton
+A Month in the Country,J.L. Carr,1980,Historical Fiction,2024-05-21,https://en.wikipedia.org/wiki/J._L._Carr
+Prophet Song,Paul Lynch,2023,Science Fiction,2024-07-09,https://en.wikipedia.org/wiki/Paul_Lynch_(writer)
+Time Out of Joint,Philip K. Dick,1959,Science Fiction,2024-09-17,https://en.wikipedia.org/wiki/Philip_K._Dick
+Parable of the Sower,Octavia E. Butler,1993,Science Fiction,2024-11-12,https://en.wikipedia.org/wiki/Octavia_E._Butler
+The End of the Affair,Graham Greene,1951,Classics,2024-12-17,https://en.wikipedia.org/wiki/Graham_Greene
+The Passenger,Ulrich Alexander Boschwitz,1939,Fiction,,https://en.wikipedia.org/wiki/Ulrich_Alexander_Boschwitz
