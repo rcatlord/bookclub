@@ -71,7 +71,7 @@ read_csv("data.csv") |>
   ) |>
   cols_width(
     Cover ~ px(60),
-    Published ~ px(100)
+    Published ~ px(110)
   ) |> 
   cols_label(
     Cover = ""
