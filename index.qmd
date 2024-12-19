@@ -37,7 +37,7 @@ h1.tbl_title {
 read_csv("data.csv") |>
   arrange(desc(Reviewed)) |> 
   gt() |> 
-  gt_img_rows(columns = "Cover", height = 60) |> 
+  gt_img_rows(columns = "Cover", img_source = "local", height = 60) |> 
   fmt_url(
     columns = TitleLink,
     label = fontawesome::fa(
