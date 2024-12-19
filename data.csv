@@ -1,18 +1,18 @@
-Title,Author,Published,Genre,Reviewed,TitleLink,AuthorLink
-The Stasi Poetry Circle,Philip Oltermann,2022,Nonfiction,2023-03-21,https://en.wikipedia.org/wiki/The_Stasi_Poetry_Circle,https://en.wikipedia.org/wiki/Philip_Oltermann
-Nutshell,Ian McEwan,2016,Contemporary Fiction,2023-04-25,https://en.wikipedia.org/wiki/Nutshell_(novel),https://en.wikipedia.org/wiki/Ian_McEwan
-The Infinities,John Banville,2009,Literary Fiction,2023-05-23,https://en.wikipedia.org/wiki/The_Infinities,https://en.wikipedia.org/wiki/John_Banville
-Dance Your Way Home,Emma Warren,2023,Nonfiction,2023-06-27,,NA
-Mr Palomar,Italo Calvino,1983,Fiction,2023-07-18,https://en.wikipedia.org/wiki/Mr._Palomar,https://en.wikipedia.org/wiki/Italo_Calvino
-Sea of Tranquilty,Emily St. John Mandel,2022,Science Fiction,2023-08-29,https://en.wikipedia.org/wiki/Sea_of_Tranquility_(novel),https://en.wikipedia.org/wiki/Emily_St._John_Mandel
-Shuggie Bain,Douglas Stuart,2020,Historical Fiction,2023-10-17,https://en.wikipedia.org/wiki/Shuggie_Bain,https://en.wikipedia.org/wiki/Douglas_Stuart_(writer)
-Yellowface,Rebecca F. Kuang,2023,Contemporary Fiction,2023-11-21,https://en.wikipedia.org/wiki/Yellowface_(novel),https://en.wikipedia.org/wiki/R._F._Kuang
-In the Miso Soup,Ryu Murakami,1997,Horror,2024-01-09,https://en.wikipedia.org/wiki/In_the_Miso_Soup,https://en.wikipedia.org/wiki/Ry%C5%AB_Murakami
-Sepharad,Antonio Muñoz Molina,2001,Historical Fiction,2024-03-05,,https://en.wikipedia.org/wiki/Antonio_Mu%C3%B1oz_Molina
-Shadow Box,George Plimpton,1977,Sports,2024-04-16,,https://en.wikipedia.org/wiki/George_Plimpton
-A Month in the Country,J.L. Carr,1980,Historical Fiction,2024-05-21,https://en.wikipedia.org/wiki/A_Month_in_the_Country_(novel),https://en.wikipedia.org/wiki/J._L._Carr
-Prophet Song,Paul Lynch,2023,Science Fiction,2024-07-09,https://en.wikipedia.org/wiki/Prophet_Song,https://en.wikipedia.org/wiki/Paul_Lynch_(writer)
-Time Out of Joint,Philip K. Dick,1959,Science Fiction,2024-09-17,https://en.wikipedia.org/wiki/Time_Out_of_Joint,https://en.wikipedia.org/wiki/Philip_K._Dick
-Parable of the Sower,Octavia E. Butler,1993,Science Fiction,2024-11-12,https://en.wikipedia.org/wiki/Parable_of_the_Sower_(novel),https://en.wikipedia.org/wiki/Octavia_E._Butler
-The End of the Affair,Graham Greene,1951,Classics,2024-12-17,https://en.wikipedia.org/wiki/The_End_of_the_Affair,https://en.wikipedia.org/wiki/Graham_Greene
-The Passenger,Ulrich Alexander Boschwitz,1939,Fiction,,,
+Cover,Title,Author,Published,Genre,Reviewed,TitleLink,AuthorLink
+images/the_stasi_poetry_circle.jpg,The Stasi Poetry Circle,Philip Oltermann,2022,Nonfiction,2023-03-21,https://en.wikipedia.org/wiki/The_Stasi_Poetry_Circle,https://en.wikipedia.org/wiki/Philip_Oltermann
+images/nutshell.jpg,Nutshell,Ian McEwan,2016,Contemporary Fiction,2023-04-25,https://en.wikipedia.org/wiki/Nutshell_(novel),https://en.wikipedia.org/wiki/Ian_McEwan
+images/the_infinities.jpg,The Infinities,John Banville,2009,Literary Fiction,2023-05-23,https://en.wikipedia.org/wiki/The_Infinities,https://en.wikipedia.org/wiki/John_Banville
+images/dance_your_way_home.jpg,Dance Your Way Home,Emma Warren,2023,Nonfiction,2023-06-27,,NA
+images/mr_palomar.jpg,Mr Palomar,Italo Calvino,1983,Fiction,2023-07-18,https://en.wikipedia.org/wiki/Mr._Palomar,https://en.wikipedia.org/wiki/Italo_Calvino
+images/sea_of_tranquility.jpg,Sea of Tranquilty,Emily St. John Mandel,2022,Science Fiction,2023-08-29,https://en.wikipedia.org/wiki/Sea_of_Tranquility_(novel),https://en.wikipedia.org/wiki/Emily_St._John_Mandel
+images/shuggie_bain.jpg,Shuggie Bain,Douglas Stuart,2020,Historical Fiction,2023-10-17,https://en.wikipedia.org/wiki/Shuggie_Bain,https://en.wikipedia.org/wiki/Douglas_Stuart_(writer)
+images/yellowface.jpg,Yellowface,Rebecca F. Kuang,2023,Contemporary Fiction,2023-11-21,https://en.wikipedia.org/wiki/Yellowface_(novel),https://en.wikipedia.org/wiki/R._F._Kuang
+images/in_the_miso_soup.jpg,In the Miso Soup,Ryu Murakami,1997,Horror,2024-01-09,https://en.wikipedia.org/wiki/In_the_Miso_Soup,https://en.wikipedia.org/wiki/Ry%C5%AB_Murakami
+images/sepharad.jpg,Sepharad,Antonio Muñoz Molina,2001,Historical Fiction,2024-03-05,,https://en.wikipedia.org/wiki/Antonio_Mu%C3%B1oz_Molina
+images/shadow_box.jpg,Shadow Box,George Plimpton,1977,Sports,2024-04-16,,https://en.wikipedia.org/wiki/George_Plimpton
+images/a_month_in_the_country.jpg,A Month in the Country,J.L. Carr,1980,Historical Fiction,2024-05-21,https://en.wikipedia.org/wiki/A_Month_in_the_Country_(novel),https://en.wikipedia.org/wiki/J._L._Carr
+images/prophet_song.jpg,Prophet Song,Paul Lynch,2023,Science Fiction,2024-07-09,https://en.wikipedia.org/wiki/Prophet_Song,https://en.wikipedia.org/wiki/Paul_Lynch_(writer)
+images/time_out_of_joint.jpeg,Time Out of Joint,Philip K. Dick,1959,Science Fiction,2024-09-17,https://en.wikipedia.org/wiki/Time_Out_of_Joint,https://en.wikipedia.org/wiki/Philip_K._Dick
+images/parable_of_the_sower.jpg,Parable of the Sower,Octavia E. Butler,1993,Science Fiction,2024-11-12,https://en.wikipedia.org/wiki/Parable_of_the_Sower_(novel),https://en.wikipedia.org/wiki/Octavia_E._Butler
+images/the_end_of_the_affair.jpg,The End of the Affair,Graham Greene,1951,Classics,2024-12-17,https://en.wikipedia.org/wiki/The_End_of_the_Affair,https://en.wikipedia.org/wiki/Graham_Greene
+images/the_passenger.jpg,The Passenger,Ulrich Alexander Boschwitz,1939,Fiction,,,

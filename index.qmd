@@ -2,6 +2,7 @@
 pagetitle: "Book club"
 format: 
   html:
+    title-block-style: none
     embed-resources: true
 editor_options: 
   chunk_output_type: console
@@ -14,10 +15,29 @@ editor_options:
 library(tidyverse) ; library(gt) ; library(gtExtras)
 ```
 
+```{css}
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+.tbl_title {
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+}
+
+h1.tbl_title {
+  font-size: 42px;
+  font-family: "Playfair Display", serif;
+  font-weight: normal;
+  color: #212121;
+}
+```
+
+# Book club reads{.tbl_title}
+
 ```{r}
 read_csv("data.csv") |>
   arrange(desc(Reviewed)) |> 
   gt() |> 
+  gt_img_rows(columns = "Cover", height = 60) |> 
   fmt_url(
     columns = TitleLink,
     label = fontawesome::fa(
@@ -46,16 +66,40 @@ read_csv("data.csv") |>
   ) |> 
   sub_missing(missing_text = "") |> 
   tab_header(
-    title = md("***Book club reads***")
+    title = NULL,
+    subtitle = NULL
   ) |>
-  opt_align_table_header(align = "left") |> 
-  tab_options(
-    heading.title.font.size = px(30),
-    heading.padding = px(0)
+  cols_width(
+    Cover ~ px(60),
+    Published ~ px(100)
+  ) |> 
+  cols_label(
+    Cover = ""
+  ) |> 
+  # https://github.com/rstudio/gt/issues/1364#issuecomment-1926972068
+  cols_label_with(
+    fn = function(x) {
+      gt::html(paste0("<span style ='font-weight:bold'>", x, "</span>"))
+    }
   ) |> 
   opt_interactive(
     use_compact_mode = TRUE,
-    use_search = TRUE,
+    use_search = TRUE
   ) |> 
-  gt_theme_dot_matrix() 
+  opt_table_font(font = google_font("Montserrat")) |>
+  opt_row_striping(row_striping = FALSE) |> 
+  tab_style(
+    style = cell_borders(
+      sides = c("top", "bottom"),
+      color = "#bdbdbd",
+      weight = px(0.8),
+      style = "solid"
+    ),
+    locations = cells_body()
+  ) |> 
+  tab_options(
+    column_labels.border.top.style = "hidden",
+    column_labels.border.bottom.style = "hidden",
+    table.font.size = px(16)
+  )
 ```
