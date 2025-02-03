@@ -37,6 +37,9 @@ h1.tbl_title {
 read_csv("data.csv") |>
   arrange(desc(Reviewed)) |> 
   gt() |> 
+  cols_label(
+    Nominator = "Chosen by"
+    ) |> 
   gt_img_rows(columns = "Cover", img_source = "local", height = 60) |> 
   fmt_url(
     columns = TitleLink,
@@ -71,7 +74,10 @@ read_csv("data.csv") |>
   ) |>
   cols_width(
     Cover ~ px(60),
-    Published ~ px(110)
+    Published ~ px(110),
+    Pages ~ px(70),
+    Sex ~ px(80),
+    Nominator ~ px(90)
   ) |> 
   cols_label(
     Cover = ""
@@ -84,8 +90,8 @@ read_csv("data.csv") |>
   ) |> 
   opt_interactive(
     use_compact_mode = TRUE,
-    use_search = TRUE,
-    use_highlight = TRUE
+    use_highlight = TRUE,
+    use_filters = TRUE
   ) |> 
   opt_table_font(font = google_font("Montserrat")) |>
   opt_row_striping(row_striping = FALSE) |> 
