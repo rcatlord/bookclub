@@ -90,8 +90,7 @@ read_csv("data.csv") |>
   ) |> 
   opt_interactive(
     use_compact_mode = TRUE,
-    use_highlight = TRUE,
-    use_filters = TRUE
+    use_highlight = TRUE
   ) |> 
   opt_table_font(font = google_font("Montserrat")) |>
   opt_row_striping(row_striping = FALSE) |> 
