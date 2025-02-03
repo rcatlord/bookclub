@@ -1,19 +1,19 @@
-Cover,Title,Author,Published,Genre,Pages,Reviewed,TitleLink,AuthorLink
-images/the_stasi_poetry_circle.jpg,The Stasi Poetry Circle,Philip Oltermann,2022,Nonfiction,212,2023-03-21,https://www.goodreads.com/book/show/51027498-the-stasi-poetry-circle,https://en.wikipedia.org/wiki/Philip_Oltermann
-images/nutshell.jpeg,Nutshell,Ian McEwan,2016,Contemporary Fiction,199,2023-04-25,https://www.goodreads.com/book/show/31817297-nutshell,https://en.wikipedia.org/wiki/Ian_McEwan
-images/the_infinities.jpeg,The Infinities,John Banville,2009,Literary Fiction,273,2023-05-23,https://www.goodreads.com/book/show/6595136-the-infinities,https://en.wikipedia.org/wiki/John_Banville
-images/dance_your_way_home.jpg,Dance Your Way Home,Emma Warren,2023,Nonfiction,416,2023-06-27,https://www.goodreads.com/book/show/61396767-dance-your-way-home,NA
-images/mr_palomar.jpg,Mr Palomar,Italo Calvino,1983,Fiction,118,2023-07-18,https://www.goodreads.com/book/show/60106.Mr_Palomar,https://en.wikipedia.org/wiki/Italo_Calvino
-images/sea_of_tranquility.jpeg,Sea of Tranquilty,Emily St. John Mandel,2022,Science Fiction,215,2023-08-29,https://www.goodreads.com/book/show/58903050-sea-of-tranquility,https://en.wikipedia.org/wiki/Emily_St._John_Mandel
-images/shuggie_bain.jpeg,Shuggie Bain,Douglas Stuart,2020,Historical Fiction,480,2023-10-17,https://www.goodreads.com/book/show/57091322-shuggie-bain,https://en.wikipedia.org/wiki/Douglas_Stuart_(writer)
-images/yellowface.jpg,Yellowface,Rebecca F. Kuang,2023,Contemporary Fiction,323,2023-11-21,https://www.goodreads.com/book/show/62047984-yellowface,https://en.wikipedia.org/wiki/R._F._Kuang
-images/in_the_miso_soup.jpeg,In the Miso Soup,Ryu Murakami,1997,Horror,180,2024-01-09,https://www.goodreads.com/book/show/818118.In_the_Miso_Soup,https://en.wikipedia.org/wiki/Ry%C5%AB_Murakami
-images/sepharad.jpeg,Sepharad,Antonio Muñoz Molina,2001,Historical Fiction,385,2024-03-05,https://www.goodreads.com/book/show/4005703-sepharad,https://en.wikipedia.org/wiki/Antonio_Mu%C3%B1oz_Molina
-images/shadow_box.jpeg,Shadow Box,George Plimpton,1977,Sports,350,2024-04-16,https://www.goodreads.com/book/show/31825706-shadow-box,https://en.wikipedia.org/wiki/George_Plimpton
-images/a_month_in_the_country.jpeg,A Month in the Country,J.L. Carr,1980,Historical Fiction,104,2024-05-21,https://www.goodreads.com/book/show/609478.A_Month_in_the_Country,https://en.wikipedia.org/wiki/J._L._Carr
-images/prophet_song.jpg,Prophet Song,Paul Lynch,2023,Science Fiction,259,2024-07-09,https://www.goodreads.com/book/show/158875813-prophet-song,https://en.wikipedia.org/wiki/Paul_Lynch_(writer)
-images/time_out_of_joint.jpeg,Time Out of Joint,Philip K. Dick,1959,Science Fiction,255,2024-09-17,https://www.goodreads.com/book/show/698034.Time_Out_of_Joint,https://en.wikipedia.org/wiki/Philip_K._Dick
-images/parable_of_the_sower.jpeg,Parable of the Sower,Octavia E. Butler,1993,Science Fiction,311,2024-11-12,https://www.goodreads.com/book/show/46159607-parable-of-the-sower,https://en.wikipedia.org/wiki/Octavia_E._Butler
-images/the_end_of_the_affair.jpeg,The End of the Affair,Graham Greene,1951,Classics,192,2024-12-17,https://www.goodreads.com/book/show/58550236-the-end-of-the-affair,https://en.wikipedia.org/wiki/Graham_Greene
-images/the_passenger.jpeg,The Passenger,Ulrich Alexander Boschwitz,1939,Fiction,266,2025-01-28,https://www.goodreads.com/book/show/58960396-the-passenger,https://en.wikipedia.org/wiki/Ulrich_Alexander_Boschwitz
-images/a_canticle_for_leibowitz.jpeg,A Canticle For Leibowitz,Walter M. Miller Jr.,1959,Science Fiction,366,,https://www.goodreads.com/book/show/48728746-a-canticle-for-leibowitz,https://en.wikipedia.org/wiki/Walter_M._Miller_Jr.
+Cover,Title,Author,Published,Genre,Pages,Nominator,Reviewed,TitleLink,AuthorLink
+images/the_stasi_poetry_circle.jpg,The Stasi Poetry Circle,Philip Oltermann,2022,Nonfiction,212,H,2023-03-21,https://www.goodreads.com/book/show/51027498-the-stasi-poetry-circle,https://en.wikipedia.org/wiki/Philip_Oltermann
+images/nutshell.jpeg,Nutshell,Ian McEwan,2016,Contemporary Fiction,199,L,2023-04-25,https://www.goodreads.com/book/show/31817297-nutshell,https://en.wikipedia.org/wiki/Ian_McEwan
+images/the_infinities.jpeg,The Infinities,John Banville,2009,Literary Fiction,273,J,2023-05-23,https://www.goodreads.com/book/show/6595136-the-infinities,https://en.wikipedia.org/wiki/John_Banville
+images/dance_your_way_home.jpg,Dance Your Way Home,Emma Warren,2023,Nonfiction,416,M,2023-06-27,https://www.goodreads.com/book/show/61396767-dance-your-way-home,NA
+images/mr_palomar.jpg,Mr Palomar,Italo Calvino,1983,Fiction,118,D,2023-07-18,https://www.goodreads.com/book/show/60106.Mr_Palomar,https://en.wikipedia.org/wiki/Italo_Calvino
+images/sea_of_tranquility.jpeg,Sea of Tranquilty,Emily St. John Mandel,2022,Science Fiction,215,H,2023-08-29,https://www.goodreads.com/book/show/58903050-sea-of-tranquility,https://en.wikipedia.org/wiki/Emily_St._John_Mandel
+images/shuggie_bain.jpeg,Shuggie Bain,Douglas Stuart,2020,Historical Fiction,480,J,2023-10-17,https://www.goodreads.com/book/show/57091322-shuggie-bain,https://en.wikipedia.org/wiki/Douglas_Stuart_(writer)
+images/yellowface.jpg,Yellowface,Rebecca F. Kuang,2023,Contemporary Fiction,323,M,2023-11-21,https://www.goodreads.com/book/show/62047984-yellowface,https://en.wikipedia.org/wiki/R._F._Kuang
+images/in_the_miso_soup.jpeg,In the Miso Soup,Ryu Murakami,1997,Horror,180,D,2024-01-09,https://www.goodreads.com/book/show/818118.In_the_Miso_Soup,https://en.wikipedia.org/wiki/Ry%C5%AB_Murakami
+images/sepharad.jpeg,Sepharad,Antonio Muñoz Molina,2001,Historical Fiction,385,L,2024-03-05,https://www.goodreads.com/book/show/4005703-sepharad,https://en.wikipedia.org/wiki/Antonio_Mu%C3%B1oz_Molina
+images/shadow_box.jpeg,Shadow Box,George Plimpton,1977,Sports,350,C,2024-04-16,https://www.goodreads.com/book/show/31825706-shadow-box,https://en.wikipedia.org/wiki/George_Plimpton
+images/a_month_in_the_country.jpeg,A Month in the Country,J.L. Carr,1980,Historical Fiction,104,H,2024-05-21,https://www.goodreads.com/book/show/609478.A_Month_in_the_Country,https://en.wikipedia.org/wiki/J._L._Carr
+images/prophet_song.jpg,Prophet Song,Paul Lynch,2023,Science Fiction,259,J,2024-07-09,https://www.goodreads.com/book/show/158875813-prophet-song,https://en.wikipedia.org/wiki/Paul_Lynch_(writer)
+images/time_out_of_joint.jpeg,Time Out of Joint,Philip K. Dick,1959,Science Fiction,255,D,2024-09-17,https://www.goodreads.com/book/show/698034.Time_Out_of_Joint,https://en.wikipedia.org/wiki/Philip_K._Dick
+images/parable_of_the_sower.jpeg,Parable of the Sower,Octavia E. Butler,1993,Science Fiction,311,M,2024-11-12,https://www.goodreads.com/book/show/46159607-parable-of-the-sower,https://en.wikipedia.org/wiki/Octavia_E._Butler
+images/the_end_of_the_affair.jpeg,The End of the Affair,Graham Greene,1951,Classics,192,C,2024-12-17,https://www.goodreads.com/book/show/58550236-the-end-of-the-affair,https://en.wikipedia.org/wiki/Graham_Greene
+images/the_passenger.jpeg,The Passenger,Ulrich Alexander Boschwitz,1939,Fiction,266,H,2025-01-28,https://www.goodreads.com/book/show/58960396-the-passenger,https://en.wikipedia.org/wiki/Ulrich_Alexander_Boschwitz
+images/a_canticle_for_leibowitz.jpeg,A Canticle For Leibowitz,Walter M. Miller Jr.,1959,Science Fiction,366,J,,https://www.goodreads.com/book/show/48728746-a-canticle-for-leibowitz,https://en.wikipedia.org/wiki/Walter_M._Miller_Jr.
