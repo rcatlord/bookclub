@@ -34,6 +34,8 @@ h1.tbl_title {
 # Book club reads{.tbl_title}
 
 ```{r}
+#| label: tbl
+#| column: page
 read_csv("data.csv") |>
   arrange(desc(Reviewed)) |> 
   gt() |> 
@@ -74,10 +76,9 @@ read_csv("data.csv") |>
   ) |>
   cols_width(
     Cover ~ px(60),
-    Published ~ px(110),
+    Published ~ px(120),
     Pages ~ px(70),
-    Sex ~ px(80),
-    Nominator ~ px(90)
+    Sex ~ px(80)
   ) |> 
   cols_label(
     Cover = ""
