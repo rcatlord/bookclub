@@ -20,7 +20,7 @@ library(tidyverse) ; library(gt) ; library(gtExtras)
 
 .tbl_title {
   margin-top: 0rem;
-  margin-bottom: 0rem;
+  margin-bottom: 1rem;
 }
 
 h1.tbl_title {
