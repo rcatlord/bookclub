@@ -37,11 +37,9 @@ h1.tbl_title {
 #| label: tbl
 #| column: page
 read_csv("data.csv") |>
+  mutate(AverageRatingScaled = AverageRating * 10) |>
   arrange(desc(Reviewed)) |> 
   gt() |> 
-  cols_label(
-    Nominator = "Chosen by"
-    ) |> 
   gt_img_rows(columns = "Cover", img_source = "local", height = 60) |> 
   fmt_url(
     columns = TitleLink,
@@ -69,17 +67,23 @@ read_csv("data.csv") |>
     columns = c(Author, AuthorLink),
     pattern = "{1} {2}"
   ) |> 
+  fmt_number(columns = AverageRating, decimals = 0) |>
+  gt_plt_bar_pct(column = AverageRatingScaled, scaled = TRUE, fill = "#e7298a") |>
   sub_missing(missing_text = "") |> 
   tab_header(
     title = NULL,
     subtitle = NULL
   ) |>
   cols_width(
-    Cover ~ px(60),
-    Published ~ px(120)
+    Cover ~ px(70),
+    Published ~ px(120),
+    Chosen ~ px(90),
+    AverageRating ~ px(90),
   ) |> 
   cols_label(
-    Cover = ""
+    Cover = "",
+    AverageRating = "Rating",
+    AverageRatingScaled = ""
   ) |> 
   # https://github.com/rstudio/gt/issues/1364#issuecomment-1926972068
   cols_label_with(
