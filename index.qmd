@@ -37,7 +37,7 @@ h1.tbl_title {
 #| label: tbl
 #| column: page
 read_csv("data.csv") |>
-  mutate(AverageRatingScaled = AverageRating * 10) |>
+  #mutate(AverageRatingScaled = AverageRating * 10) |>
   arrange(desc(Reviewed)) |> 
   gt() |> 
   gt_img_rows(columns = "Cover", img_source = "local", height = 60) |> 
@@ -78,12 +78,12 @@ read_csv("data.csv") |>
     Cover ~ px(70),
     Published ~ px(120),
     Chosen ~ px(90),
-    AverageRating ~ px(90),
+    #AverageRating ~ px(90),
   ) |> 
   cols_label(
     Cover = "",
-    AverageRating = "Rating",
-    AverageRatingScaled = ""
+    #AverageRating = "Rating",
+    #AverageRatingScaled = ""
   ) |> 
   # https://github.com/rstudio/gt/issues/1364#issuecomment-1926972068
   cols_label_with(
